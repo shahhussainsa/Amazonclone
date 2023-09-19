@@ -152,7 +152,7 @@ span{
 }
 
 .hero_section{
-	background-image: url(1.jpg);
+	background-image: url(profile.jpg);
 	height: 350px;
 	background-size: cover;
 	display: flex;
