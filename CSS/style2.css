@@ -1,0 +1,237 @@
+*{
+	margin: 0;
+	font-family: Arial;
+	
+}
+
+.nav-logo {
+	height: 60px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	margin-top: 35px;
+}
+.logo {
+	background-image: url(image/amazonlogo.png);
+	background-size: cover;
+	height: 33px;
+	width:  111px;
+	align-items: center;
+}
+
+.box-inner{
+	border: center;
+	/*margin-top: 5px;
+	margin-left: 26%;
+	padding-top: 20px;*/
+	padding-left:26px;
+	padding-right: 26px;
+	padding-bottom: 20px;
+	height: 520px;
+	width: 320px;
+	border: 1px solid #D8D8D8;
+	border-radius: 6px;
+	/*position: relative;
+    top: 50%;
+    left: 50%;*/
+    margin: auto;
+	display: block;
+	justify-content: center;
+}
+
+.login:hover{
+	border: 1px solid #888888 ;
+    border-radius: 6px;
+}
+h1{
+	font-family: sans-serif;
+	font-size: 28px;
+	font-weight: 300;
+	padding-bottom: 4px;
+	margin-top: 5px;
+}
+/* name */
+.val-name{
+	height: 20px;
+	width: 310px;
+	font-weight: bold;
+/*	padding-left: 06px;*/
+	font-size: 0.9rem;
+	line-height: 19px;
+    color: #111;
+
+}
+.val-n{
+	height: 23px;
+	width: 300px;
+	background-color: white;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+.val-n:focus{
+	border: 1px solid grey;
+	outline:0;
+    box-shadow: -1px 3px 5px rgba(0, 255, 255,0.5);
+}
+/* email heading */
+
+.val{
+	display: block;
+	margin-top: 20px;
+	padding-left: 2px;
+	padding-bottom: 2px;
+	font-weight: bold;
+	font-size: 0.9rem;
+}
+.val1{
+	width: 90%;
+	height: 8px;
+    padding: 9px 7px;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius:5px;
+}
+.val1:focus
+{
+	outline:0;
+    box-shadow: -1px 3px 5px rgba(0, 255, 255,0.5);
+} 
+
+.val_pass{
+	margin-top: 20px;
+	padding-top: 10px;
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+/*password*/
+.pass{
+	height: 25px;
+	width: 90%;
+	margin-top: 3px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+.pass:focus{
+	outline:0;
+    box-shadow: -1px 3px 5px rgba(0, 255, 255,0.5);
+}
+
+.add-icon {
+	height: 25px;
+	display: flex;
+	align-items: center;
+}
+.add-icon a {
+	height: 25px;
+	display: flex;
+	align-items: center;
+	color: black;
+	margin-left: 2px;
+	padding-left: 2px;
+	font-size: 0.85rem;
+	font-weight: 500;
+
+}
+.fa fa-info-circle {
+	margin-top: 5px;
+	padding-top: 5px;
+	height: 3px;
+	width: 10px;
+	color: blue;
+	font-size: 0.5rem;
+	background-color: black;
+}
+
+
+button {
+	margin-top: 20px;
+	height: 30px;
+	width: 95%;
+    background-color: #FFD700;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+	background-color: #ffbf00;
+}
+
+.text1{
+	margin: 15px;
+	font-size: 0.8rem !important;
+    line-height: 1.5!important;
+    width: 100%;
+}
+.text1 a{
+	color: #6262ff;
+	text-decoration: none;
+
+}
+.text1 a:hover{
+	color: #f58c00;
+	text-decoration: underline;
+}
+
+.detail{
+/*	margin: 15px;*/
+	font-size: 0.8rem !important;
+    line-height: 1.5!important;
+    width: 90%;
+    border-top: 0.5px solid grey;
+    display: block;
+    padding-left: 15px;
+    padding-top: 20px;
+    border-top-width: 50% ;
+    box-shadow: inset 0px 5px 0px 0px rgba(211, 211, 211,0.5);
+ }
+.detail a{
+	margin: 5px;
+	color: #6262ff;
+	text-decoration: none;
+
+}
+.detail a:hover{
+	color: #f58c00;
+	text-decoration: underline;
+}
+
+
+.foot-panel4{
+	background-color: white;
+	margin-top: 20px;
+	border-top: 1px solid grey;
+	box-shadow: 10px 0 15px 0 rgba(168,168,168,0.09);
+	color: black;
+	height: 70px;
+}
+
+.pages{
+	font-size: 0.7rem;
+	text-align: center;
+	padding-top: 25px;
+/*	letter-spacing: 5px;*/
+/*	padding: 5px;*/
+	display: flex;
+	justify-content: center;
+}
+.pages a{
+	margin-left: 15px;
+	color: #6262ff;
+	text-decoration: none;
+}
+.pages a:hover{
+	color: #f58c00;
+	text-decoration: underline;
+}
+.copyrite{
+	font-size: 0.7rem;
+	text-align: center;
+	padding-top: 5px;
+}
