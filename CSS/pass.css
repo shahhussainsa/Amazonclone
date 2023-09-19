@@ -14,7 +14,7 @@
 	margin-top: 35px;
 }
 .logo {
-	background-image: url(image/amazonlogo.png);
+	
 	background-size: cover;
 	height: 33px;
 	width:  111px;
@@ -73,7 +73,10 @@ h1{
 	outline:0;
     box-shadow: -1px 3px 5px rgba(0, 255, 255,0.5);
 } 
-
+.frgt{
+	padding-top: 10px;
+	font-size: 0.85rem;
+}
 button {
 	margin-top: 20px;
 	height: 30px;
@@ -121,6 +124,31 @@ p{
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }*/
+
+.check{
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+	
+}
+#keep {
+	font-size: 0.9rem;
+	padding-inline: 3px;
+}
+
+.msg{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-left: 40%;
+}
+
+
+
+
+
+
+
 .help p{
 
 	color: #6262ff;
@@ -229,6 +257,7 @@ p{
 	text-align: center;
 	padding-top: 5px;
 }
+
 .self-info{
 	display: block;
 	align-items: center;
@@ -246,4 +275,5 @@ p{
 .self-info a{
 	padding-top: 10px;
 	padding-left: 20px;
+	color: black;
 }

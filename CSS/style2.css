@@ -235,3 +235,22 @@ button:hover{
 	text-align: center;
 	padding-top: 5px;
 }
+
+.self-info{
+	display: block;
+	align-items: center;
+	justify-content: center;
+	padding-top: 30px;
+    padding-left: 40%;
+}
+/*.self-info p{
+	display: block;
+	align-items: center;
+	justify-content: center;
+	padding-top: 30px;
+    padding-left: 40%;
+}*/
+.self-info a{
+	padding-top: 10px;
+	padding-left: 20px;
+}

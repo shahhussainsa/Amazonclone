@@ -4,7 +4,9 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>amazon sign in</title>
-	<link rel="stylesheet" type="text/css" href="CSS\style1.css">
+	<link rel="stylesheet" type="text/css" href="CSS\style1.css"
+	>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
 	<div class="nav-bar">
@@ -16,7 +18,14 @@
     	<h1>Sign in</h1><br>
     	<label class="val">Email or mobile phone number</label>
     	<input class="val1"  type="text" placeholder="Email or number" required>
-    	<button type="button">Continue</button>
+    	<button id="btn" type="button">Continue</button>
+    	<script>
+        // Add a click event listener to the button
+        document.getElementById("btn").addEventListener("click", function() {
+            // Redirect to the next page when the button is clicked
+            window.location.href = "password.html";
+        });
+    	</script>
         <p>By continuing, you agree to Amazon's <a href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_register_notification_condition_of_use?ie=UTF8&nodeId=508088">Conditions of Use </a>and <a href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_register_notification_privacy_notice?ie=UTF8&nodeId=468496">Privacy Notice</a>.</p>
     <div class="help">
      <i class="arrow right"></i><p>Need Help?</p>
@@ -38,6 +47,14 @@
 			&copy 1996-2023, Amazon.com, Inc. or its affiliates
 		</div>
 	</div>
+	<div class="self-info">
+		<p>&copy SHAH HUSSAIN AHAMED S A</p>
+        <a href="https://linkedin.com/in/shahhussain22"title="Click to Visit Linkedin Profile"><i class="fab fa-linkedin" style="font-size:26px; color: black;"></i></a>
+        <a href="https://github.com/SHAHHUSSAINSA"title="Click to Visit GitHub Profile"><i class="fab fa-github" style="font-size:26px; margin-left: 5px; color: black;"></i></a>
+        <a href="https://shahhussainsa.github.io/"title="Click to Visit Portfolio"><i class="fas fa-briefcase" style="font-size:26px; margin-left: 5px; color: black;"></i></a>
+         <a href="image/HussainResumes.pdf"title="Click to Visit Resume"><i class="fas fa-file-pdf" style="font-size:26px; margin-left: 5px; color: black;"></i></a>
+
+		</div>
 </footer>
 
 </body>
