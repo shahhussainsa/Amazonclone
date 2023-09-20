@@ -230,6 +230,15 @@ span{
 	color: red;
 	text-decoration: underline;
 }
+.box-img:hover{
+	transform: scale(1.1);
+
+}
+
+h2{
+	padding-top: 10px;
+	font-size: 1.2rem;
+}
 
 footer {
 	margin-top: 15px;
